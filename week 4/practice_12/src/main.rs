@@ -1,6 +1,6 @@
 // Rust program to output name and age 
 
-use std :: ioo;
+use std :: io;
 
 fn main() {
     println!("\nStudent Information Management System!");
@@ -16,7 +16,7 @@ fn main() {
    // input age
    println!("\nEnter your age.");
    let mut age = String::new();
-       oi::stdin().read_line(&mut age).expect("Failed to read input");
+       io::stdin().read_line(&mut age).expect("Failed to read input");
    let age:i32 = age.trim().parse().expect("Input not an integer");
    println!("Your age is : {}", age);
        

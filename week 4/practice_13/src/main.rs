@@ -12,7 +12,7 @@ fn main() {
     let a :f32 = input1.trim().parse().expect("Not a valid number");
 
     println!("Enter second edge of traingle:");
-    io::stdin().read_line(%mut input2).expect("Not a valid string");
+    io::stdin().read_line(&mut input2).expect("Not a valid string");
     let b:f32 = input2.trim().parse().expect("Nota a valid number");
 
     println!("Enter third edge of traingle:");
