@@ -7,6 +7,6 @@ let arr:[i32;4] = [10,20,30,40];
     println!("array size is :{}",arr.len());
 
     for val in arr.iter(){
-        println!("value is :{}",val);
+        println!("value is :{}",val);6
     }
 }
